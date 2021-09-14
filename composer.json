@@ -1,5 +1,5 @@
 {
-  "name": "raiym/instagram-php-scraper",
+  "name": "rifalpg/instagram-php-scraper",
   "description": "Instagram PHP Scraper. Get account information, photos and videos without any authorization",
   "keywords": [
     "instagram",
@@ -15,17 +15,17 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
+    "php": "^7.3|^8.0",
     "ext-curl": "*",
     "ext-json": "*",
     "psr/simple-cache": "~1.0",
     "psr/http-client": "~1.0",
-    "guzzlehttp/psr7": "^1.7"
+    "guzzlehttp/psr7": "^2.0.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0",
     "phpfastcache/phpfastcache": "^7.1",
-    "guzzlehttp/guzzle": "^7.2"
+    "guzzlehttp/guzzle": "^7.0.1"
   },
   "autoload": {
     "psr-4": {
